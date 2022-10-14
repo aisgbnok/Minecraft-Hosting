@@ -1,0 +1,36 @@
+.typography--headline {
+  font-family: "Minecraft-Ten", "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  font-variation-settings: "GRAD" 48, "XTRA" 516, "XOPQ" 120, "YOPQ" 103;
+}
+
+.typography--description {
+  font-family: "Minecraft-Seven", "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.content {
+  margin: 48px 96px;
+}
+
+.content__section:not(:first-of-type) {
+  margin: 72px 0;
+}
+
+.section__content {
+  margin-top: 24px;
+}
+
+.content_input {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 12px;
+
+  .inputs {
+    display: flex;
+    gap: 8px;
+  }
+}

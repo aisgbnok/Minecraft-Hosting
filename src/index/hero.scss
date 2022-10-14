@@ -1,0 +1,66 @@
+.hero {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__header {
+  padding: 96px 0 96px 96px;
+  background-image: radial-gradient(100% 360% at 100% 100%, #52953d 0%, #57ab3b 100%);
+}
+
+.typography {
+  font-family: "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.typography--brand {
+  font-family: "Minecraft-Five", "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  color: #fff;
+  text-shadow: 0 2px 0 #2b511e;
+  font-weight: 400;
+  font-size: 1.375rem;
+  font-variation-settings: "GRAD" 48, "XOPQ" 144, "YOPQ" 127;
+}
+
+.typography--hero {
+  max-width: 945px;
+  font-family: "Minecraft-Ten", "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  color: #fff;
+  text-shadow: 0 2px 0 #2b511e;
+  font-weight: 400;
+  font-size: 4.5rem;
+  font-variation-settings: "wdth" 112.5, "XTRA" 516;
+}
+
+.typography--info {
+  font-family: "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+  opacity: .6;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: .75rem;
+  font-variation-settings: "wdth" 100, "GRAD" 64, "XTRA" 528;
+}
+
+.hero_graphic {
+  display: flex;
+
+  .spacer{
+    flex: 1;
+  }
+
+  svg {
+    width: auto;
+  }
+
+  #hero_left {
+    height: 96px;
+  }
+
+  #hero_right {
+    height: 48px;
+  }
+}
+

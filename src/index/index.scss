@@ -1,0 +1,29 @@
+$primary: #56a43c;
+
+@use "@material/theme" with (
+  $primary: $primary,
+  $secondary: #feeae6,
+  $background: #FFF,
+  $error: #B00020
+);
+@use "@material/theme/mdc-theme";
+
+@use "@material/typography/mdc-typography";
+@use "@material/card";
+@use "@material/fab";
+
+@include card.core-styles;
+@include fab.core-styles;
+
+@import "fonts";
+@import "hero";
+@import "section";
+@import "textfield";
+@import "button";
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+

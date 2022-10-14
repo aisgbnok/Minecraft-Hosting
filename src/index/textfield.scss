@@ -1,0 +1,15 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+.mdc-text-field--outlined {
+  @include textfield.outline-shape-radius(0);
+  @include textfield.outlined-density(0);
+}
+
+.mdc-text-field__input, .mdc-floating-label  {
+  font-family: "Minecraft-Seven", "Roboto Flex", Roboto, "Segoe UI", sans-serif;
+}
