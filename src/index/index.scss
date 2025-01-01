@@ -11,15 +11,14 @@ $primary: #56a43c;
 @use "@material/typography/mdc-typography";
 @use "@material/card";
 @use "@material/fab";
+@use "fonts";
+@use "hero";
+@use "section";
+@use "textfield";
+@use "button";
 
 @include card.core-styles;
 @include fab.core-styles;
-
-@import "fonts";
-@import "hero";
-@import "section";
-@import "textfield";
-@import "button";
 
 
 html, body {
